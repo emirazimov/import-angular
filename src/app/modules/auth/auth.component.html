@@ -1,0 +1,56 @@
+<!-- <div class="d-flex flex-column flex-center flex-column-fluid">
+  <div class="d-flex flex-column flex-center text-center p-10">
+    <div class="card card-flush  w-lg-650px py-5">
+      <div class="card-body py-15 py-lg-20">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="d-flex flex-column flex-lg-row flex-column-fluid">
+  <div
+    class="d-flex w-lg bgi-size-cover bgi-position-center"
+    [ngStyle]="{ 'background-image': 'url(./assets/media/misc/auth-bg.png)' }"
+  >
+    <!--begin::Content-->
+    <div class="d-flex flex-column flex-center py-15 px-5 px-md-15 w-100">
+      <!--begin::Logo-->
+      <!--end::Logo-->
+
+      <!--begin::Image-->
+      <img
+        class="mx-auto w-275px w-md-50 w-lg-325px mb-10 mb-lg-20"
+        src="./assets/media/misc/auth-screens.png"
+        alt=""
+      />
+      <!--end::Image-->
+
+      <!--begin::Title-->
+
+      <!--end::Text-->
+    </div>
+    <!--end::Content-->
+  </div>
+
+  <!--begin::Body-->
+  <div class="d-flex flex-column flex-lg-row-fluid w-lg-50 p-10">
+    <!--begin::Form-->
+    <div class="d-flex flex-center flex-column flex-lg-row-fluid">
+      <!--begin::Wrapper-->
+      <div class="p-10">
+        <router-outlet></router-outlet>
+      </div>
+      <!--end::Wrapper-->
+    </div>
+    <!--end::Form-->
+
+    <!--begin::Footer-->
+    <!--end::Footer-->
+  </div>
+  <!--end::Body-->
+
+  <!--begin::Aside-->
+
+  <!--end::Aside-->
+</div>
